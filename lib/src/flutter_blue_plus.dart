@@ -696,7 +696,7 @@ class ScanResult {
   final AdvertisementData advertisementData;
   final int rssi;
   final DateTime timeStamp;
-  final List<int> rawData;
+  final List<int>? rawData;
 
   ScanResult({
     required this.device,

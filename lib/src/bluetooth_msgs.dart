@@ -108,7 +108,7 @@ class BmScanAdvertisement {
   final Map<Guid, List<int>> serviceData;
   final List<Guid> serviceUuids;
   final int rssi;
-  final List<int> rawData;
+  final List<int>? rawData;
 
   BmScanAdvertisement({
     required this.remoteId,
